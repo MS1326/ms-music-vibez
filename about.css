@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(38, 33, 107);
+  color: aliceblue;
+}
+
+.navbar {
+  background-color: rgb(49, 41, 117);
+  background-attachment: fixed;
+  position: sticky;
+  top: 0%;
+  z-index: +1;
+  width: 200px;
+  height: 180%;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  width: 12%;
+  position: fixed;
+  line-height: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: aliceblue;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: large;
+}
+
+li a:hover {
+  background-color: lightcyan;
+  color: black;
+}
+
+.vl {
+  border-left: 2px solid skyblue;
+  height: 100%;
+  margin-left: 202px;
+}
+
+.nav {
+  background-color: rgb(49, 41, 117);
+  display: flex;
+  margin-left: 13.5%;
+  margin-top: -86.3%;
+  position: sticky;
+  top: 0%;
+  z-index: +1;
+}
+
+.home {
+  height: 60px;
+  width: 60px;
+  margin-left: 90%;
+  margin-top: 10%;
+  margin-left: 600%;
+}
+
+.sbox {
+  height: 30px;
+  width: 400px;
+  border-radius: 25px;
+  margin-top: 18px;
+  margin-left: 10%;
+
+}
+
+.search {
+  height: 50px;
+  width: 40px;
+  margin-left: 270%;
+  margin-top: 25%;
+}
+
+.home1 {
+  height: 70px;
+  width: 60px;
+  margin-top: 0%;
+  margin-left: 750%;
+}
+
+.profile {
+  height: 50px;
+  width: 50px;
+  margin-left: 650%;
+  margin-top: 20%;
+}
+
+h1 {
+  margin-left: 45%;
+}
+
+p{
+  font-size: 25px;
+  margin-left: 15%;
+  margin-top: 4%;
+}
+
+mark{
+  margin-left: 15%;
+}
+
+h3{
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+dl{
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+dt{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+dd{
+  margin-left: 5%;
+  margin-top: 1%;
+  font-size: 25px;
+}
