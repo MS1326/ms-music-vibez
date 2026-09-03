@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MS Musix Vibez - Login</title>
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(49, 41, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color:skyblue;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px whitesmoke;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+b{
+    color:white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(49, 41, 117);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(74, 62, 184);
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: px;
+}
+
+.form-footer a {
+    color:rgb(49, 41, 117);
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login to <b>MS Musix</b> Account</h1>
+        <form id="login-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="login-btn"><a href="home.html">LOGIN</a></button>
+            </div>
+            <div class="form-footer">
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script>
+
+        // script.js
+
+document.getElementById('login-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    
+    // Basic validation (you can enhance this)
+    if (!email || !password) {
+        alert("Please fill in both fields!");
+        return;
+    }
+
+    // Simulate login action (this is where you would connect to your backend)
+    alert(`Logged in with Email: ${email}`);
+    
+    // Redirect user to the main profile or homepage after successful login
+    // window.location.href = "profile.html"; // Example redirect
+});
+
+    </script>
+</body>
+</html>
